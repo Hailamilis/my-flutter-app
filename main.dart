@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Stack(
               children: <Widget>[
                 Image.asset(
-                  'assets/images/home3.jpg',
+                  'assets/images/photo_5936262260911620149_y (1).png',
                   fit: BoxFit.contain,
                   alignment: Alignment.center,
                 ),
@@ -115,7 +115,7 @@ class _NextPageState extends State<NextPage> {
             Stack(
               children: <Widget>[
                 Image.asset(
-                  'assets/images/transaction7.jpg',
+                  'assets/images/photo_5927213649582212744_y (1) (2) (1).png',
                   fit: BoxFit.cover,
                   width: double.infinity,
                   alignment: Alignment.center,
@@ -209,7 +209,7 @@ class _InsertValueState extends State<InsertValue> {
             Stack(
               children: <Widget>[
                 Image.asset(
-                  'assets/images/insert1.jpg',
+                  'assets/images/photo_5927213649582212743_y (1) (2) (1) (1) (1) (1).png',
                   fit: BoxFit.cover,
                   width: double.infinity,
                   alignment: Alignment.center,
