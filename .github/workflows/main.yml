@@ -1,0 +1,25 @@
+name: Setup Flutter Project
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  setup_project:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Create Android Folder
+        run: mkdir android
+
+      - name: Commit Changes
+        run: |
+          git config --global user.name "Your Name"
+          git config --global user.email "youremail@example.com"
+          git add .
+          git commit -m "Create Android folder"
+          git push
